@@ -1,0 +1,123 @@
+gsap.from(".cont1 .box1 ",{
+    x:-815, 
+    duration:2,
+    delay:1,
+    opacity:0
+    
+})
+gsap.from(".cont1 .box2 img",{ 
+    duration:2,
+    delay:2,
+    hieght:0,
+    opacity:0,
+    
+})
+gsap.from(".cont2",{
+    x:-815, 
+    duration:3,
+    delay:1,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".cont2",
+        scroller:"body",
+        markers:"true",
+        start:"top 50%",
+        end:"80% 80%",
+        scrub:3
+    }
+})
+
+
+gsap.from(".cont3",{
+    x:815, 
+    duration:3,
+    delay:1,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".cont3",
+        scroller:"body",
+        markers:"true",
+        start:"top 50%",
+        end:"80% 80%",
+        scrub:3
+    }
+})
+
+
+gsap.from(".cont4",{
+    x:-815, 
+    duration:3,
+    delay:1,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".cont4",
+        scroller:"body",
+        markers:"true",
+        start:"top 50%",
+        end:"80% 80%",
+        scrub:3
+    }
+})
+
+gsap.from(".cont5 h2",{
+    transform: "scale(115)",
+
+    duration:18,
+    delay:1,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".cont5",
+        scroller:"body",
+        markers:"true",
+        start:"top 50%",
+        end:"80% 80%",
+        scrub:2,
+        pin:true,
+    }
+})
+
+
+gsap.from(".cont6",{
+    y:855,
+    duration:1,
+    delay:8,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".cont5 ",
+        scroller:"body",
+        markers:"true",
+        start:"top 10%",
+        end:"80% 80%",
+        scrub:2,
+        pin:true,
+    }
+})
+
+gsap.from(".contact1 h2",{
+    x:355,
+    duration:2,
+    delay:1,
+    opacity:1,
+    scrollTrigger:{
+        trigger:".contact1 h2 ",
+        scroller:"body",
+        markers:"true",
+        start:"top 80%",
+        end:"80% 80%",
+        scrub:2,
+        }
+})
+gsap.from(".contact2 .crd1",{
+    y:855,
+    duration:3,
+    delay:5,
+    opacity:1,
+    scrollTrigger:{
+        trigger:".contact2  ",
+        scroller:"body",
+        markers:"true",
+        start:"top 80%",
+        end:"80% 80%",
+        scrub:2,
+        }
+})
