@@ -20,7 +20,6 @@ gsap.from(".cont2",{
     scrollTrigger:{
         trigger:".cont2",
         scroller:"body",
-        markers:"true",
         start:"top 50%",
         end:"80% 80%",
         scrub:3
@@ -36,7 +35,6 @@ gsap.from(".cont3",{
     scrollTrigger:{
         trigger:".cont3",
         scroller:"body",
-        markers:"true",
         start:"top 50%",
         end:"80% 80%",
         scrub:3
@@ -52,7 +50,6 @@ gsap.from(".cont4",{
     scrollTrigger:{
         trigger:".cont4",
         scroller:"body",
-        markers:"true",
         start:"top 50%",
         end:"80% 80%",
         scrub:3
@@ -68,7 +65,6 @@ gsap.from(".cont5 h2",{
     scrollTrigger:{
         trigger:".cont5",
         scroller:"body",
-        markers:"true",
         start:"top 50%",
         end:"80% 80%",
         scrub:2,
@@ -85,7 +81,6 @@ gsap.from(".cont6",{
     scrollTrigger:{
         trigger:".cont5 ",
         scroller:"body",
-        markers:"true",
         start:"top 10%",
         end:"80% 80%",
         scrub:2,
@@ -100,8 +95,6 @@ gsap.from(".contact1 h2",{
     opacity:1,
     scrollTrigger:{
         trigger:".contact1 h2 ",
-        scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -115,7 +108,6 @@ gsap.from(".contact2 .crd1",{
     scrollTrigger:{
         trigger:".contact2  ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -131,7 +123,6 @@ gsap.from(".camps h2",{
     scrollTrigger:{
         trigger:".camps  ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -146,7 +137,6 @@ gsap.from(".camp .box1 img",{
     scrollTrigger:{
         trigger:".camp  ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -161,7 +151,6 @@ gsap.from(".camp .box2 h2",{
     scrollTrigger:{
         trigger:".camp  ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -178,7 +167,6 @@ gsap.from(".camp2 .box2 img",{
     scrollTrigger:{
         trigger:".camp2 ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
@@ -194,7 +182,6 @@ gsap.from(".camp2 .box1 h2",{
     scrollTrigger:{
         trigger:".camp2 ",
         scroller:"body",
-        markers:"true",
         start:"top 80%",
         end:"80% 80%",
         scrub:2,
